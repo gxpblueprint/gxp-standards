@@ -70,6 +70,20 @@ A signature (handwritten or electronic) signifies:
 - **"Reviewed by":** I have checked the data for accuracy, completeness, and compliance.
 - **"Approved by":** I authorize the document for use.
 
+## 7. Email Handling Flow (Mermaid)
+
+```mermaid
+flowchart TD
+    A[Deviation detected in warehouse] --> B[Draft GDP incident email]
+    B --> C{Impact assessment?}
+    C -->|Major / Critical| D[Notify QA distribution list]
+    C -->|Minor| E[Notify Ops Supervisor]
+    D --> F[QA opens CAPA ticket]
+    E --> F
+    F --> G[Archive email thread in QMS record]
+    G --> H[Update batch record / shipment status]
+```
+
 ## 7. References
 
 - FDA Data Integrity and Compliance with Drug CGMP (Guidance for Industry)
