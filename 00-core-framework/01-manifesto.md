@@ -1,5 +1,6 @@
 ---
 title: The GxP Manifesto
+sidebar_label: Manifesto
 ---
 
 # Why We Validate (Not Just Document)
