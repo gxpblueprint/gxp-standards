@@ -1,6 +1,6 @@
 ---
 title: 01-SOP-GDP-Core Good Documentation Practices
-sidebar_label: 01-SOP-GDP-Core (Documentation)
+sidebar_label: 01-SOP-GDP-Core
 ---
 
 # 01-SOP-GDP-Core: Good Documentation Practices (GDP)
