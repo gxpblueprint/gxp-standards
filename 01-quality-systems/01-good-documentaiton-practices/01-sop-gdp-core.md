@@ -185,8 +185,8 @@ Establish Good Documentation Practices (GDP) for all **paper (manual) GMP record
 ```mermaid
 flowchart TD
     A[Error noticed in record] --> B{Is product impacted?}
-    B -->|Yes / Unknown| C[Notify Supervisor & QA immediately]
-    B -->|No (clerical)| D[Correct with GDP rules]
+    B -->|Yes or unknown| C[Notify Supervisor & QA immediately]
+    B -->|No - clerical| D[Correct with GDP rules]
     C --> E[Initiate deviation/investigation per 211.192]
     E --> F[Assess batch impact & CAPA]
     D --> G[Single-line strike, correct entry, initial/date, reason]
