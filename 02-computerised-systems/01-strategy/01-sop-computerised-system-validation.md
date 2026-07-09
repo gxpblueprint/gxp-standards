@@ -5,7 +5,7 @@ sidebar_label: CSV SOP
 
 # 01-SOP-CSV: Computerised System Validation
 
-> **Purpose of this document:** Provide a practical, risk-based procedure for validating and maintaining GMP computerised systems using GAMP 5 principles, Annex 11 expectations, FDA electronic-record controls, and current data integrity thinking.
+> **Use this SOP to:** assess, validate, release, operate, change, review, and retire GMP computerised systems.
 
 ---
 
@@ -13,7 +13,7 @@ sidebar_label: CSV SOP
 
 This SOP defines how GMP computerised systems are assessed, specified, configured, verified, released, operated, changed, periodically reviewed, and retired.
 
-The procedure is designed to ensure that each system is:
+The procedure must ensure that each system is:
 
 - fit for intended use
 - proportionately validated based on patient safety, product quality, and data integrity risk
@@ -21,7 +21,7 @@ The procedure is designed to ensure that each system is:
 - supported by clear ownership, supplier oversight, records, and objective evidence
 - maintained in a validated state after release
 
-The approach follows the GAMP 5 principle that validation effort should be driven by intended use, process understanding, supplier knowledge, system complexity, and documented risk.
+Validation effort must be driven by intended use, process understanding, supplier knowledge, system complexity, and documented risk.
 
 ## 2. Scope
 
@@ -141,6 +141,18 @@ flowchart TD
     J --> K[Change control and periodic review]
     K --> L[Retirement and data retention]
 ```
+
+## 7.1 CSV Scenario Rules
+
+| Scenario | Required action |
+| --- | --- |
+| New GxP system | Open intake/change record, assign System Owner and Process Owner, complete GxP assessment, approve validation route before build/configuration. |
+| Low-risk GMP-supporting tool | Document intended use, risk rationale, minimum evidence, and Quality-approved route. |
+| Direct GxP-critical system | Use full lifecycle controls: requirements, risk assessment, supplier evidence, verification, traceability, release approval, and periodic review. |
+| SaaS vendor forces release | Review release notes, assess regression/data integrity impact, approve risk route, verify critical functions after deployment where required. |
+| Spreadsheet used for GMP calculation | Register it, lock formulas, verify calculations, control version/storage/access, and review periodically. |
+| System outage or data loss | Open incident/deviation, preserve logs/audit trails/backups, assess product/data impact, and approve restore or workaround before GMP use. |
+| System retirement | Lock down use, preserve records/metadata/audit trails, verify retrieval, and obtain Quality approval before decommissioning. |
 
 ## 8. Procedure
 

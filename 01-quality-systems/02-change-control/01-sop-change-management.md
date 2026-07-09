@@ -5,7 +5,7 @@ sidebar_label: Change Control SOP
 
 # 01-SOP-CCM: Change Control Management
 
-> **Purpose of this document:** Provide a practical, risk-based procedure for proposing, assessing, approving, implementing, verifying, and closing GMP changes without unintended impact to patient safety, product quality, data integrity, validated state, or regulatory commitments.
+> **Use this SOP to:** propose, assess, approve, implement, verify, and close GMP changes before they affect routine operations.
 
 ---
 
@@ -13,7 +13,7 @@ sidebar_label: Change Control SOP
 
 This SOP defines the site process for controlling planned changes to GMP facilities, utilities, equipment, materials, documents, computerized systems, analytical methods, processes, suppliers, services, packaging, labels, specifications, and quality system procedures.
 
-The change control process must ensure that:
+The change control process must:
 
 - proposed changes are justified before GMP-state-changing implementation starts
 - risks are assessed using scientific knowledge and process understanding
@@ -126,6 +126,16 @@ flowchart TD
     I -- Yes --> J[Quality closure]
     J --> K[Effectiveness check and trending if required]
 ```
+
+## 7.1 Change Scenario Rules
+
+| Scenario | Required action |
+| --- | --- |
+| Planning only, no GMP-state change | Draft options, gather quotes, perform sandbox work, or run impact workshops. Do not change live GMP records, equipment, systems, materials, labels, or procedures. |
+| GMP-state-changing implementation | Open change control, complete impact assessment, obtain Quality approval, then execute approved tasks. |
+| Emergency action needed | Stabilize the condition, notify Quality, hold affected items where quality impact is possible, then complete retrospective deviation/change assessment. |
+| Like-for-like replacement covered by approved maintenance procedure | Follow the approved procedure and record post-work checks. Escalate to change control if equivalence or validated state is uncertain. |
+| Regulatory prior approval may be required | Do not implement for routine manufacture, release, distribution, or use in affected markets until Regulatory Affairs confirms the route. |
 
 ## 8. Procedure
 

@@ -5,7 +5,7 @@ sidebar_label: GDP Core SOP
 
 # 01-SOP-GDP-Core: Good Documentation Practices for Paper (Manual) Records
 
-> **Purpose of this document:** Provide a complete, practical, and regulatory‑aligned handbook for every employee who writes, reviews, or archives paper GMP records. This SOP is intentionally detailed so it can be used at the desk or on the shop floor as the single source of truth.
+> **Use this SOP to:** create, correct, review, issue, and archive paper GMP records using controlled, inspectable steps.
 
 ---
 
@@ -18,11 +18,23 @@ Establish Good Documentation Practices (GDP) for all **paper (manual) GMP record
 - Excludes electronic or hybrid records (covered separately under computerized systems SOPs); however, printed outputs that become part of a paper record (e.g., instrument printouts) are in scope for attachment, labeling, and review.
 
 ## 3. References
-- **FDA** 21 CFR 210–211 (notably 211.180, 211.182, 211.186, 211.188, 211.194)
-- **EU GMP / EudraLex Vol. 4** Chapter 4 (Documentation) and Annex 15 (Qualification & Validation)
+- **FDA** 21 CFR 210–211 (notably 211.68, 211.100, 211.180, 211.182, 211.186, 211.188, 211.192, 211.194)
+- **FDA** Data Integrity and Compliance With Drug CGMP: Questions and Answers
+- **FDA** 21 CFR Part 11 where electronic records or signatures are used
+- **EU GMP / EudraLex Vol. 4** Chapter 4 (Documentation), Annex 11 (Computerised Systems), and Annex 15 (Qualification & Validation)
+- **ISPE GAMP** Records and Data Integrity guidance where electronic, hybrid, or computerized records are used
 - **PIC/S PI 041-1 (2021)** Good Practices for Data Management and Integrity
 - **WHO** Good Documentation Practices (TRS 1033 Annex 4; TRS 996 Annex 5)
 - Site Quality Manual and Master Validation Plan (for alignment of retention and review expectations)
+
+### 3.1 Relationship to other SOPs
+
+This GDP SOP is the core paper-record procedure. For electronic or hybrid records, apply this SOP together with:
+
+- Data Integrity Governance SOP
+- Computerised System Validation SOP
+- Document Control SOP
+- Deviation Handling SOP when record errors may affect product quality or data integrity
 
 ## 4. Definitions
 - **ALCOA+:** Attributable, Legible, Contemporaneous, Original, Accurate, Complete, Consistent, Enduring, Available.
@@ -39,6 +51,19 @@ Establish Good Documentation Practices (GDP) for all **paper (manual) GMP record
 | Quality Unit (QA/QC) | Owns GDP system; approves templates; issues and reconciles controlled copies/logbooks; maintains signature/initial log; reviews/approves completed records; investigates discrepancies (per 21 CFR 211.192); controls archives and destruction. |
 | Document Control / Archivist | Maintains master document list; numbers and issues logbooks/forms; tracks issuance and return; manages secure storage and retrieval. |
 | Training | Provides initial and periodic GDP training; maintains GDP-compliant training records; triggers refresher after observations or regulation changes. |
+
+## 5.1 Operator Sequence
+
+Use this sequence for every paper GMP record:
+
+1. Confirm the record is the current approved version or an issued controlled copy.
+2. Enter data at the time the work is performed.
+3. Complete every required field or mark it `N/A` with initials/date.
+4. Attach printouts, labels, or supporting records with batch/sample ID, date, and initials.
+5. Correct errors by single-line strike-through only; preserve the original entry.
+6. Sign or initial the entry immediately after completion.
+7. Notify the supervisor and Quality if the error may affect product quality, data integrity, or batch disposition.
+8. Submit the complete record for review.
 
 ## 6. Document Types and Format Requirements
 ### 6.1 Batch Production & Packaging Records (BPRs) – 21 CFR 211.186/211.188
