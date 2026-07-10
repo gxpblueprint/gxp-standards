@@ -1,6 +1,11 @@
 ---
 title: Computerised System Validation
 sidebar_label: CSV SOP
+api_id: d8cf16c5-a7e1-4b76-bd26-dd09aec3ce3a
+api_type: sop
+api_label: 01-SOP-CSV
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-CSV: Computerised System Validation

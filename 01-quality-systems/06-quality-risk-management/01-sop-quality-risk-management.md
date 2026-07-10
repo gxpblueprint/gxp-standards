@@ -1,6 +1,11 @@
 ---
 title: Quality Risk Management
 sidebar_label: QRM SOP
+api_id: 5d987927-02b0-43df-8e46-67ae2bb9ceaa
+api_type: sop
+api_label: 01-SOP-QRM
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-QRM: Quality Risk Management

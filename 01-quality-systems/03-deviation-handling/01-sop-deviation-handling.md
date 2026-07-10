@@ -1,6 +1,11 @@
 ---
 title: Deviation Handling
 sidebar_label: Deviation SOP
+api_id: 90eea8d3-8388-440a-a22c-e077105bbe05
+api_type: sop
+api_label: 01-SOP-DEV
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-DEV: Deviation Handling

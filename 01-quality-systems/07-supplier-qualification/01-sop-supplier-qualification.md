@@ -1,6 +1,11 @@
 ---
 title: Supplier Qualification
 sidebar_label: Supplier Qualification SOP
+api_id: c4bf6ee9-d2da-4ea5-af9c-2f186d05493b
+api_type: sop
+api_label: 01-SOP-SUP
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-SUP: Supplier Qualification and Oversight

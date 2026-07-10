@@ -1,6 +1,11 @@
 ---
 title: Management Review
 sidebar_label: Management Review SOP
+api_id: 9fbd84c8-51b7-41ee-a100-3f3fe9055dd7
+api_type: sop
+api_label: 01-SOP-MR
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-MR: Management Review of the Pharmaceutical Quality System

@@ -1,6 +1,11 @@
 ---
 title: Change Control Management
 sidebar_label: Change Control SOP
+api_id: dffd5600-0fca-4d87-b435-cbd3ae0f79e7
+api_type: sop
+api_label: 01-SOP-CCM
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-CCM: Change Control Management

@@ -1,6 +1,10 @@
 ---
 title: The GxP Charter
 sidebar_label: Charter
+api_id: 603375ae-7558-447b-a94c-65eb8301c875
+api_type: guidance
+api_version: "1.0"
+api_status: published
 ---
 
 # The GxP Charter

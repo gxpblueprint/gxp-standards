@@ -1,6 +1,11 @@
 ---
 title: Internal Audit
 sidebar_label: Internal Audit SOP
+api_id: bfcb3395-774d-42f6-a9e9-b6246be10283
+api_type: sop
+api_label: 01-SOP-AUD
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-AUD: Internal Audit and Self-Inspection

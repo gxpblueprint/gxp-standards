@@ -1,3 +1,11 @@
+---
+title: Contributing to GxP Standards
+api_id: 2485f4d1-c1e5-4e3a-a93f-688a28ac9e61
+api_type: guidance
+api_version: "1.0"
+api_status: published
+---
+
 # Contributing to GxP Standards
 
 We welcome contributions from validation engineers, QA professionals, and industry experts.

@@ -1,6 +1,10 @@
 ---
 title: GxP Standards Glossary
 sidebar_label: Glossary
+api_id: f15c8793-c20b-458a-8bc8-9d49f48d112b
+api_type: guidance
+api_version: "1.0"
+api_status: published
 ---
 
 # GxP Standards Glossary

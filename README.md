@@ -1,3 +1,11 @@
+---
+title: GxP Standards Library
+api_id: f1cbab50-40e0-43e3-99b4-5804a38367eb
+api_type: collection
+api_version: "1.0"
+api_status: published
+---
+
 # GxP Standards Library
 
 **The Open Source Standard for Pharmaceutical Validation.**

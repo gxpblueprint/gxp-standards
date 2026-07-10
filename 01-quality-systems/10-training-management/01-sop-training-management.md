@@ -1,6 +1,11 @@
 ---
 title: Training Management
 sidebar_label: Training SOP
+api_id: d532505b-69a5-45c4-ba2c-d63e8e33c296
+api_type: sop
+api_label: 01-SOP-TRN
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-TRN: Training Management

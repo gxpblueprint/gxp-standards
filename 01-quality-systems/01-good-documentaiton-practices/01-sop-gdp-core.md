@@ -1,6 +1,11 @@
 ---
 title: Good Documentation Practice (GDP) – Paper Records
 sidebar_label: GDP Core SOP
+api_id: 141b3877-970a-4540-bcbb-87f5afe4a0e1
+api_type: sop
+api_label: 01-SOP-GDP-Core
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-GDP-Core: Good Documentation Practices for Paper (Manual) Records

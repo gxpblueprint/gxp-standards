@@ -1,6 +1,11 @@
 ---
 title: Data Integrity
 sidebar_label: Data Integrity SOP
+api_id: 1a1590ce-43f9-4a77-afca-71c7ddb66982
+api_type: sop
+api_label: 01-SOP-DI
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-DI: Data Integrity Governance

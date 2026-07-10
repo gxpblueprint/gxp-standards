@@ -1,6 +1,11 @@
 ---
 title: Document Control
 sidebar_label: Document Control SOP
+api_id: fadc1ec2-dc33-4756-8e1f-11ce653f68fd
+api_type: sop
+api_label: 01-SOP-DOC
+api_version: "1.0"
+api_status: published
 ---
 
 # 01-SOP-DOC: Document Control
