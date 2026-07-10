@@ -3,7 +3,7 @@ title: The GxP Charter
 sidebar_label: Charter
 api_id: 603375ae-7558-447b-a94c-65eb8301c875
 api_type: guidance
-api_version: "1.0"
+api_version: "1.1"
 api_status: published
 ---
 
@@ -16,7 +16,8 @@ For decades, practical validation know‑how has lived in closed committees, pro
 GxP Blueprint publishes validation guidance that is public, inspectable, and versioned. The project maintains the source material so the standards remain consistent and traceable.
 
 **Our principles**
-- **Public use:** Content is available to read, use, and adapt under the repository license.
+- **Internal use for every organization:** Companies of every size, including large multinational pharmaceutical companies, may read, use, and adapt the material inside their own operations under the GxP Blueprint Community Licence.
+- **No third-party resale:** Selling, white-labelling, sublicensing, or commercially redistributing GxP Blueprint material requires written permission.
 - **Transparent logic:** Every rule is explained, not hidden.
 - **Version-controlled:** Changes are tracked in Git; history is never lost.
 - **Responsible stewardship:** GxP Blueprint controls changes to the published source material.

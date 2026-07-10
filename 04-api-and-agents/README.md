@@ -3,13 +3,13 @@ title: API and AI Agents
 sidebar_label: API and AI Agents
 api_id: 079011fc-22d6-41fa-ae7d-1dda8795e46a
 api_type: collection
-api_version: "1.0"
+api_version: "1.1"
 api_status: published
 ---
 
 # API and AI Agents
 
-Use the public GxP Blueprint API to retrieve the same open-reference material published on this site. The initial API is read-only, requires no account or API key, and is designed for software integrations and AI agents.
+Use the public GxP Blueprint API to retrieve the same reference material published on this site. The initial API is read-only, requires no account or API key, and is designed for software integrations and AI agents.
 
 ## Start without writing code
 
@@ -37,4 +37,4 @@ If your agent cannot open links, copy the instructions from the [agent guide](./
 
 GxP Blueprint provides reference material. It does not know your organization's products, processes, licences, validation state, risk controls, or approval system. Adapt generated material and obtain appropriate subject-matter and Quality review before use.
 
-The dataset currently declares its license as `NOASSERTION` because this repository does not yet contain a formal licence declaration. Do not infer reuse rights beyond published repository terms.
+The dataset is published under the [GxP Blueprint Community Licence 1.0](https://www.gxpblueprint.com/licensing). Every organization, including the largest pharmaceutical companies, may use and adapt the material internally with attribution. Resale, white-labelling, commercial redistribution, and substantial use in a paid third-party product or service require written permission.

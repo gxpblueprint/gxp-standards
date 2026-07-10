@@ -1,0 +1,193 @@
+GxP BLUEPRINT COMMUNITY LICENCE 1.0
+
+Effective date: 10 July 2026
+
+Copyright (c) 2026 GxP Blueprint. All rights reserved except as expressly
+granted by this licence.
+
+This is a custom source-available content licence. It is not a Creative
+Commons licence and is not an OSI-approved open-source licence.
+
+1. DEFINITIONS
+
+"GxP Blueprint" or "Licensor" means the owner of copyright in Material that
+is published under the GxP Blueprint name with a reference to this licence.
+
+"Material" means GxP Blueprint standards and reference content published with
+a reference to this licence, including standard operating procedures, user
+requirements specification requirements, guidance, checklists, templates,
+schemas, API records, catalogues, and datasets, together with later content
+types expressly published under this licence. Material does not include
+website or API implementation code, GxP Blueprint names or logos, or
+third-party material identified as subject to separate terms.
+
+"You" means the individual or legal entity exercising rights under this
+licence. If you act for an organization, "You" means that organization.
+
+"Internal Use" means use solely for Your own internal operations and those of
+entities that You control, are controlled by You, or are under common control
+with You. Internal Use includes work by employees and contractors acting only
+on Your behalf for those internal operations. It does not include providing
+the Material or a Material-derived product or service to another party for
+commercial benefit.
+
+"Commercial Redistribution" means selling, licensing, sublicensing, renting,
+white-labelling, commercially publishing, or otherwise providing the Material
+or a substantial part of it to a third party for commercial advantage or
+monetary compensation. It includes embedding the Material in a paid product,
+subscription, database, training product, AI product, hosted service, or paid
+deliverable where the Material forms a substantial part of the value supplied.
+
+2. INTERNAL-USE GRANT
+
+Subject to this licence, GxP Blueprint grants You a worldwide, royalty-free,
+non-exclusive, non-transferable right to access, download, copy, use, and
+adapt the Material for Internal Use.
+
+This permission applies to organizations of every size. In particular, a
+large or multinational pharmaceutical company may use and adapt the Material
+inside its own quality system and internal operations. There is no employee,
+revenue, market-capitalization, or monthly-active-user threshold.
+
+An employee or contractor may share the Material within the permitted
+organization and its controlled affiliates where that sharing is necessary
+for Internal Use. A contractor must use it only for the relevant internal
+engagement and must not reuse or commercialize it independently.
+
+3. ATTRIBUTION AND CHANGES
+
+Every copy or adaptation used under this licence must retain a reasonably
+prominent attribution in the document, product records, references,
+acknowledgements, or other location appropriate to the medium:
+
+  Based on GxP Blueprint material - https://www.gxpblueprint.com.
+  Used under the GxP Blueprint Community Licence 1.0.
+
+If You adapt the Material, You must also identify that changes were made and
+must not imply that GxP Blueprint reviewed, approved, validated, or endorsed
+the changes. A suitable notice is:
+
+  Adapted from GxP Blueprint material. GxP Blueprint has not reviewed or
+  endorsed these changes.
+
+You may not remove or obscure an existing copyright, source, licence, or
+attribution notice.
+
+4. PUBLIC REFERENCES AND EXCERPTS
+
+You may link to the Material and quote reasonable excerpts publicly for
+commentary, education, scholarship, review, or discussion, including in a
+commercial publication, provided You give clear attribution and the use does
+not reproduce or substitute for a complete record, collection, or dataset.
+This permission does not limit rights that You already have under applicable
+copyright exceptions or limitations.
+
+5. USES REQUIRING PRIOR WRITTEN PERMISSION
+
+The Internal-Use Grant does not permit You to do any of the following without
+prior written permission from GxP Blueprint or a separate commercial licence:
+
+a. engage in Commercial Redistribution;
+b. sell or sublicense the Material, an adaptation, or access to either;
+c. white-label the Material or present it as Your own source library;
+d. publish a complete record, substantial collection, mirror, or substitute
+   dataset for third-party use;
+e. embed a substantial part of the Material in a paid software product,
+   database, subscription, AI product, training product, hosted service, or
+   other commercial offering;
+f. use the Material as a substantial part of a standardized paid deliverable
+   or content pack offered to third-party clients; or
+g. remove, hide, or replace the required attribution.
+
+A consultant or service provider may help a client adapt the Material inside
+that client's internal quality system as the client's contractor. This does
+not permit the consultant or service provider to resell, reuse, or package the
+Material as its own commercial product or standardized deliverable.
+
+API availability, a public URL, or technical ability to download the dataset
+does not grant commercial permission.
+
+6. COMMERCIAL PERMISSION
+
+GxP Blueprint may grant commercial permission under separate written terms.
+Permission is not granted by silence, attribution alone, prior discussions,
+API access, or payment to a third-party service provider.
+
+7. API ACCESS AND SERVICE TIERS
+
+This licence governs rights in the Material, not the operation of GxP
+Blueprint's hosted services. GxP Blueprint may apply fair-use controls, rate
+limits, authentication, paid service tiers, or service-specific terms to its
+hosted API without changing the Internal-Use Grant for copies of Material
+lawfully obtained under this licence.
+
+8. OWNERSHIP, MARKS, AND NO ENDORSEMENT
+
+GxP Blueprint and its licensors retain all rights not expressly granted. This
+licence does not grant permission to use GxP Blueprint names, logos, or marks
+except as reasonably necessary for the required attribution. You may not
+state or imply that GxP Blueprint sponsors, certifies, approves, validates, or
+endorses You, Your organization, Your product, or Your adaptation.
+
+9. REGULATED-USE DISCLAIMER
+
+The Material is reference material, not legal or regulatory advice and not an
+approved procedure for any particular organization. You are responsible for
+assessing applicability and adapting the Material to Your intended use,
+products, processes, regulatory commitments, risks, validation state, and
+document-management system. Obtain appropriate subject-matter, regulatory,
+validation, and Quality review and approval before operational use.
+
+10. WARRANTY DISCLAIMER
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE MATERIAL IS PROVIDED "AS IS" AND
+"AS AVAILABLE", WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS,
+IMPLIED, OR STATUTORY, INCLUDING ACCURACY, COMPLETENESS, NON-INFRINGEMENT,
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, REGULATORY ACCEPTANCE, OR
+FITNESS FOR A PARTICULAR INTENDED USE.
+
+11. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, GXP BLUEPRINT AND ITS CONTRIBUTORS WILL
+NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+EXEMPLARY, OR PUNITIVE LOSS, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS,
+GOODWILL, PRODUCTION, PRODUCT, BATCH, OR REGULATORY STATUS, ARISING FROM THE
+MATERIAL OR THIS LICENCE, EVEN IF ADVISED OF THE POSSIBILITY OF THAT LOSS.
+
+12. TERM AND TERMINATION
+
+This licence applies for the duration of the copyright and similar rights in
+the Material unless Your rights terminate under this section. Your rights
+terminate automatically if You materially breach this licence and do not cure
+the breach within 30 days after You discover it or receive written notice of
+it. Rights may be reinstated by written permission from GxP Blueprint.
+
+Sections concerning attribution, ownership, disclaimers, liability, and prior
+licence grants survive termination to the extent necessary to give them
+effect. Termination does not limit remedies available for infringement or
+breach.
+
+13. LICENCE VERSIONS AND PRIOR GRANTS
+
+GxP Blueprint may publish new versions of this licence. A Material release is
+governed by the licence version identified with that release unless GxP
+Blueprint expressly permits use under a later version.
+
+This licence does not revoke or narrow rights validly granted for a particular
+copy or release under an earlier licence. Material first published under this
+licence is not made available under an earlier Creative Commons licence merely
+because other GxP Blueprint material was previously described using different
+terms.
+
+14. SEVERABILITY AND NO WAIVER
+
+If any provision is unenforceable, it will be limited or removed only to the
+minimum extent necessary, and the remaining provisions will continue. A
+failure to enforce a provision is not a waiver. Any additional permission or
+waiver must be in writing from GxP Blueprint.
+
+Canonical licence information:
+https://www.gxpblueprint.com/licensing
+
+Machine-readable identifier:
+LicenseRef-GxP-Blueprint-Community-1.0

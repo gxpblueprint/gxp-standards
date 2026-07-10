@@ -2,15 +2,17 @@
 title: Public Use and Contribution Policy
 api_id: 2485f4d1-c1e5-4e3a-a93f-688a28ac9e61
 api_type: guidance
-api_version: "1.0"
+api_version: "1.1"
 api_status: published
 ---
 
 # Public Use and Contribution Policy
 
-GxP Blueprint is published for public use.
+GxP Blueprint is published for internal use under the GxP Blueprint Community Licence 1.0.
 
-You may read, copy, adapt, and use the published materials under the repository license.
+Every organization—including a large or multinational pharmaceutical company—may read, copy, use, and adapt the published material for its own internal operations with attribution. There is no company-size or revenue threshold.
+
+Third-party resale, sublicensing, white-labelling, commercial redistribution, and substantial embedding in a paid product or service require prior written permission. Read the [licensing guide](https://www.gxpblueprint.com/licensing) and the [complete licence](https://www.gxpblueprint.com/licensing/gxp-blueprint-community-license-1.0.txt).
 
 ## External Contributions
 

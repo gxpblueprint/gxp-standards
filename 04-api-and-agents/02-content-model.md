@@ -3,7 +3,7 @@ title: Content Model, Identity, and Versions
 sidebar_label: Content Model
 api_id: 3dd31995-1dd1-44f7-9b5e-8e4425ab3462
 api_type: guidance
-api_version: "1.0"
+api_version: "1.1"
 api_status: published
 ---
 
@@ -22,7 +22,9 @@ Every public resource is a record with a common envelope and type-specific conte
   "aliases": [],
   "provenance": {
     "sourcePath": "docs/01-quality-systems/02-change-control/01-sop-change-management.md",
-    "license": "NOASSERTION"
+    "license": "LicenseRef-GxP-Blueprint-Community-1.0",
+    "licenseUrl": "https://www.gxpblueprint.com/licensing",
+    "attributionRequired": true
   },
   "links": {
     "canonical": "https://www.gxpblueprint.com/docs/quality-systems/change-control/sop-change-management",
