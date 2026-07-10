@@ -12,21 +12,21 @@ api_status: published
 ## The Problem: Knowledge Stuck in Silos
 For decades, practical validation know‑how has lived in closed committees, proprietary binders, or the heads of a few “gurus.” That slows everyone down and leaves teams guessing.
 
-## The Solution: A Commons for GxP
-We’re treating validation guidance like open-source code: public, inspectable, versioned, and continuously improved.
+## The Solution: Public Standards for GxP
+GxP Blueprint publishes validation guidance that is public, inspectable, and versioned. The project maintains the source material so the standards remain consistent and traceable.
 
 **Our principles**
-- **Open access:** Content is free to read and reuse.
+- **Public use:** Content is available to read, use, and adapt under the repository license.
 - **Transparent logic:** Every rule is explained, not hidden.
 - **Version-controlled:** Changes are tracked in Git; history is never lost.
-- **Merit wins:** Great ideas are accepted based on quality, not seniority or job title.
+- **Responsible stewardship:** GxP Blueprint controls changes to the published source material.
 
-## The Power of Many
-We invite engineers, QA, QC, validation leads, regulators-in-training, and implementers worldwide to contribute. Diverse, real-world inputs make the standards sharper and more practical than any single-author document.
+## Built for Practical Use
+The standards are designed for engineers, QA, QC, validation leads, regulators-in-training, and implementers who need a clear starting point for their own quality systems.
 
 ## Our Pledge
-1. **Always open contribution:** Pull requests are welcome; discussion stays public.  
-2. **Meritocratic review:** Ideas are judged on evidence and clarity, not résumés.  
-3. **Continuous improvement:** When someone shows a better way, we adopt it—quickly.  
+1. **Public access:** Publish practical standards that can be inspected and used.
+2. **Clear ownership:** Maintain control of changes to the published source material.
+3. **Continuous improvement:** Review and improve the standards through GxP Blueprint's internal process.
 
-Together we’re not just sharing the standard—we’re building it in the open.
+The aim is a practical, traceable standards library that teams can use with confidence.

@@ -8,9 +8,9 @@ api_status: published
 
 # GxP Standards Library
 
-**The Open Source Standard for Pharmaceutical Validation.**
+**A public-use standard for pharmaceutical validation.**
 
-This repository contains the source content for [GxP-Blueprint](https://gxp-blueprint.com). It is a community-driven collection of SOPs, Protocols, and Validation Standards designed to modernize the industry.
+This repository contains the source content for [GxP Blueprint](https://gxpblueprint.com). It is published for public use under the repository license, but it is not open for external contributions.
 
 ## Structure
 * **00 Core Framework:** High-level policies and the "Why" behind validation.
