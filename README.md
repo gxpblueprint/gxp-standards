@@ -2,7 +2,7 @@
 title: GxP Standards Library
 api_id: f1cbab50-40e0-43e3-99b4-5804a38367eb
 api_type: collection
-api_version: "1.1"
+api_version: "1.2"
 api_status: published
 ---
 
@@ -17,6 +17,8 @@ This repository contains the source content for [GxP Blueprint](https://gxpbluep
 * **01 Quality Systems:** foundational SOPs (GDP, Change Control).
 * **02 Computerised Systems:** Modern, risk-based validation (CSA/CSV).
 * **03 Equipment:** IOQ protocols and hardware testing.
+* **04 API and Agents:** Human and machine guidance for the public API.
+* **05 URS Requirements:** Independently addressable requirements with applicability, verification, and source traceability.
 
 ## Licence
 
