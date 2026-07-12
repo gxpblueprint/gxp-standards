@@ -75,11 +75,6 @@ Example `urs_requirement` content:
   "verificationMethods": ["test", "analysis"],
   "references": [
     {
-      "kind": "book",
-      "source": "Practical Guide to 21 CFR Part 11",
-      "locator": "Section 7, requirement 1, p. 85"
-    },
-    {
       "kind": "regulation",
       "source": "21 CFR Part 11 - Electronic Records; Electronic Signatures",
       "locator": "§ 11.10(a)",

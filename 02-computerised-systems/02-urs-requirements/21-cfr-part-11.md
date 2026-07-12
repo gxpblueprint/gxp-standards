@@ -14,7 +14,7 @@ Use this collection as a starting library when defining requirements for a compu
 
 > **Drafting rule:** Select each requirement only after assessing intended use, electronic-record scope, electronic-signature scope, applicable predicate rules, system architecture, supplier capabilities, and risk. This collection is not an exhaustive or universally applicable Part 11 checklist.
 
-The source statements come from Section 7 of *Practical Guide to 21 CFR Part 11*. The normalized statements below make applicability clearer while retaining the original book wording in each structured API record. Current eCFR links provide regulatory context; implementation details such as RAID, role names, password values, and file formats are examples that require organization-specific justification.
+The requirements are mapped directly to current 21 CFR Part 11 references. The normalized statements and applicability guidance clarify where implementation details are examples rather than verbatim regulatory wording; implementation details such as RAID, role names, password values, and file formats are examples that require organization-specific justification.
 
 Every requirement has its own permanent UUID. Human labels may evolve, but UUID identity must not change.
 
@@ -28,7 +28,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba4b-73ca-bef1-e538397cd123`
 - **Applicability:** Include only when the selected system supports this detection. Otherwise assess alternative controls, supplier limitations, and residual risk.
-- **Source:** Section 7, requirement 1, p. 85; book mapping to 21 CFR 11.10(a).
+- **21 CFR Part 11 reference:** § 11.10(a).
 
 ### URS-P11-002
 
@@ -38,7 +38,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-c7b8e1c5693b`
 - **Applicability:** Apply where a user-accessible desktop or operating-system layer exists. Define service, vendor, emergency, and break-glass access separately.
-- **Source:** Section 7, requirement 2, p. 85; book mapping to 21 CFR 11.10(a), with related access controls in 11.10(d) and 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(a); related access controls in §§ 11.10(d) and 11.10(g).
 
 ### URS-P11-003
 
@@ -48,7 +48,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-cb1045628049`
 - **Applicability:** Apply only where the system creates or maintains batch records. Confirm that exports preserve the complete record, context, metadata, and relationships.
-- **Source:** Section 7, requirement 3, p. 85; 21 CFR 11.10(b).
+- **21 CFR Part 11 reference:** § 11.10(b).
 
 ### URS-P11-004
 
@@ -58,7 +58,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-cdc1b45bdba0`
 - **Applicability:** Verify that exports remain complete, readable, attributable, correctly ordered, and linked to affected records. PDF or CSV may require supporting metadata or a native export.
-- **Source:** Section 7, requirement 4, p. 85; 21 CFR 11.10(b) and 11.10(e).
+- **21 CFR Part 11 reference:** §§ 11.10(b) and 11.10(e).
 
 ### URS-P11-005
 
@@ -68,7 +68,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-d209fed02461`
 - **Applicability:** Define scope, frequency, retention, security, monitoring, restoration testing, and recovery objectives. A backup mechanism alone does not demonstrate recoverability.
-- **Source:** Section 7, requirement 5, p. 85; 21 CFR 11.10(c).
+- **21 CFR Part 11 reference:** § 11.10(c).
 
 ### URS-P11-006
 
@@ -78,7 +78,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-d4186b93af21`
 - **Applicability:** Use only when RAID 1 is justified for the architecture. RAID is not a backup and may not apply to cloud, managed, virtualized, appliance, or supplier-hosted systems.
-- **Source:** Section 7, requirement 6, p. 85; book mapping to 21 CFR 11.10(c).
+- **21 CFR Part 11 reference:** § 11.10(c).
 
 ### URS-P11-007
 
@@ -88,7 +88,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-d991bcc61f92`
 - **Applicability:** Apply to interfaces within the organization's control after assessing maintenance, support, emergency recovery, and approved peripheral needs.
-- **Source:** Section 7, requirement 7, p. 85; 21 CFR 11.10(d).
+- **21 CFR Part 11 reference:** § 11.10(d).
 
 ### URS-P11-008
 
@@ -98,7 +98,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-de6b28ed80dd`
 - **Applicability:** Apply to on-premises servers where cabinet locking is part of the physical-security design. Controlled data rooms, managed data centres, cloud services, and sealed appliances may use different controls.
-- **Source:** Section 7, requirement 8, p. 85; 21 CFR 11.10(d).
+- **21 CFR Part 11 reference:** § 11.10(d).
 
 ### URS-P11-009
 
@@ -108,7 +108,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-e0baac93c0c4`
 - **Applicability:** Define the event inventory from intended use and risk. Include events relevant to regulated records, security, record context, and regulated decisions.
-- **Source:** Section 7, requirement 9, p. 85; 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ### URS-P11-010
 
@@ -118,7 +118,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-e44932da80f0`
 - **Applicability:** Add old value, new value, reason for change, record identifier, signature meaning, or other context where intended use and risk require it.
-- **Source:** Section 7, requirement 10, p. 86; 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ### URS-P11-011
 
@@ -128,7 +128,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-e997c7395c22`
 - **Applicability:** Include retention, archival, capacity, purge permissions, database administration, and supplier-support paths rather than testing only normal user functions.
-- **Source:** Section 7, requirement 11, p. 86; 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ## Time controls
 
@@ -140,7 +140,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-eed264b20295`
 - **Applicability:** Define the authoritative source, permitted tolerance, monitoring, failure indication, time-zone handling, setting permissions, and recovery after disconnection.
-- **Source:** Section 7, requirement 12, p. 86; 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ### URS-P11-013
 
@@ -150,7 +150,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-f3fbb2416a8d`
 - **Applicability:** Treat the format as the book's example, not verbatim Part 11 text. Select an unambiguous approved format and define time zone, seconds, and export behavior where needed.
-- **Source:** Section 7, requirement 13, p. 86; book mapping to 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ### URS-P11-014
 
@@ -160,7 +160,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-f4cc1420018c`
 - **Applicability:** Apply only where local time and daylight-saving rules are used. UTC systems or regions without seasonal changes require different requirements.
-- **Source:** Section 7, requirement 14, p. 86; book mapping to 21 CFR 11.10(e).
+- **21 CFR Part 11 reference:** § 11.10(e).
 
 ## Identity, authentication, and passwords
 
@@ -172,7 +172,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba54-704c-aa23-fa8d46edc7f7`
 - **Applicability:** Define renamed users, reused identifiers, service accounts, federated identity, deleted accounts, and cross-site directories so historical attribution remains unambiguous.
-- **Source:** Section 7, requirement 15, p. 86; 21 CFR 11.10(d) and 11.10(g), with 11.300(a) relevant to electronic signatures.
+- **21 CFR Part 11 reference:** §§ 11.10(d) and 11.10(g); see also § 11.300(a) for electronic signatures.
 
 ### URS-P11-016
 
@@ -182,7 +182,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-df256eeca83f`
 - **Applicability:** Federated identity, smart cards, passkeys, biometrics, or multifactor authentication require equivalent approved requirements that preserve individual attribution.
-- **Source:** Section 7, requirement 16, p. 86; 21 CFR 11.10(d) and 11.10(g).
+- **21 CFR Part 11 reference:** §§ 11.10(d) and 11.10(g).
 
 ### URS-P11-017
 
@@ -192,7 +192,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-e0f59178e371`
 - **Applicability:** Apply to interfaces accepting passwords. Do not expose passwords in logs, exports, or error messages; assess any temporary reveal control.
-- **Source:** Section 7, requirement 17, p. 86; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-018
 
@@ -202,7 +202,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-e6f3655a3116`
 - **Applicability:** Confirm current approved hashing, salting, work factors, key or pepper protection, migration, backup exposure, and supplier controls.
-- **Source:** Section 7, requirement 18, p. 86; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-019
 
@@ -212,7 +212,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-eb38cc91a949`
 - **Applicability:** Treat the values as an example, not verbatim Part 11 text. Select current organization-approved controls based on threat, system capability, identity-provider policy, and user burden.
-- **Source:** Section 7, requirement 19, p. 86; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-020
 
@@ -222,7 +222,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-ef14303acbd6`
 - **Applicability:** Define current-password verification, identity-provider ownership, session handling, notification, audit logging, and centralized authentication behavior.
-- **Source:** Section 7, requirement 20, p. 86; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-021
 
@@ -232,7 +232,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-f203fe319d54`
 - **Applicability:** Treat four-password history as an organization-specific example and align the depth with approved identity policy and centralized identity controls.
-- **Source:** Section 7, requirement 21, p. 86; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-022
 
@@ -242,7 +242,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-f4e303e4aeee`
 - **Applicability:** Treat attempt counts and duration as organization-specific. Assess denial-of-service risk, progressive delay, unlock controls, alerting, emergency access, and identity-provider behavior.
-- **Source:** Section 7, requirement 22, p. 86; 21 CFR 11.10(g), with 11.300(d) relevant to electronic-signature credential safeguards.
+- **21 CFR Part 11 reference:** § 11.10(g); see also § 11.300(d) for electronic-signature credential safeguards.
 
 ### URS-P11-023
 
@@ -252,7 +252,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-fbc14c036384`
 - **Applicability:** Define the period from use environment, process duration, safety, shared-terminal risk, signature workflow, and identity-provider capability.
-- **Source:** Section 7, requirement 23, p. 87; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-024
 
@@ -262,7 +262,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b757-fcdbf52ccd1d`
 - **Applicability:** Define identity proofing, reset authorization, token lifetime, notification, audit logging, help-desk controls, temporary credentials, and federated identity ownership.
-- **Source:** Section 7, requirement 24, p. 87; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-025
 
@@ -272,7 +272,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-00462b5bb5fa`
 - **Applicability:** Apply when temporary or initial passwords are issued. Federated identity, invitation links, passwordless onboarding, or user-created credentials need equivalent controls.
-- **Source:** Section 7, requirement 25, p. 87; book mapping to 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-026
 
@@ -282,7 +282,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-0592a99684a0`
 - **Applicability:** Define authorization, timing, active-session revocation, interfaces, disabled-account retention, reactivation, service accounts, and propagation evidence.
-- **Source:** Section 7, requirement 26, p. 87; 21 CFR 11.10(d) and 11.10(g).
+- **21 CFR Part 11 reference:** §§ 11.10(d) and 11.10(g).
 
 ### URS-P11-027
 
@@ -292,7 +292,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-0b26084b1872`
 - **Applicability:** Treat the four role names as examples. Define roles from the actual process, segregation of duties, least privilege, supplier access, and approved access matrix.
-- **Source:** Section 7, requirement 27, p. 87; 21 CFR 11.10(g).
+- **21 CFR Part 11 reference:** § 11.10(g).
 
 ### URS-P11-028
 
@@ -302,7 +302,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-0e2280d4dd27`
 - **Applicability:** Apply only where justified limits exist. Define units, precision, warning versus rejection, overrides, reason capture, interface inputs, device checks, and change control.
-- **Source:** Section 7, requirement 28, p. 87; 21 CFR 11.10(h), with related operational checks in 11.10(f).
+- **21 CFR Part 11 reference:** § 11.10(h); related operational checks may also fall under § 11.10(f).
 
 ## Electronic signatures
 
@@ -314,7 +314,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-12ac50680847`
 - **Applicability:** Ensure the manifestation remains part of human-readable displays and copies, is linked to the signed record, and uses controlled signature meanings.
-- **Source:** Section 7, requirement 29, p. 87; 21 CFR 11.50(a) and 11.50(b).
+- **21 CFR Part 11 reference:** § 11.50(a) and § 11.50(b).
 
 ### URS-P11-030
 
@@ -324,7 +324,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-16843f20adb2`
 - **Applicability:** Apply to non-biometric signatures during one continuous controlled session. Define how continuous controlled access begins and ends.
-- **Source:** Section 7, requirement 30, p. 87; normalized against current 21 CFR 11.200(a)(1)(i).
+- **21 CFR Part 11 reference:** § 11.200(a)(1)(i).
 
 ### URS-P11-031
 
@@ -334,7 +334,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-18946f10cc5b`
 - **Applicability:** Apply to non-biometric signatures outside one continuous controlled session. Verify all required signature components for every signing.
-- **Source:** Section 7, requirement 31, p. 87; normalized against current 21 CFR 11.200(a)(1)(ii).
+- **21 CFR Part 11 reference:** § 11.200(a)(1)(ii).
 
 ### URS-P11-032
 
@@ -344,7 +344,7 @@ Every requirement has its own permanent UUID. Human labels may evolve, but UUID 
 
 - **Permanent UUID:** `019f4cbc-ba55-70fb-b758-1e6158234b7f`
 - **Applicability:** Define the period from approved identity policy, current security guidance, compromise-detection capability, multifactor authentication, system constraints, and 21 CFR 11.300(b).
-- **Source:** Section 7, requirement 32, p. 87; 21 CFR 11.300(b).
+- **21 CFR Part 11 reference:** § 11.300(b).
 
 ## How to use these records through the API
 

@@ -1,13 +1,8 @@
 {
   "collection": {
     "title": "21 CFR Part 11 URS Requirements",
-    "description": "Structured examples derived from Section 7 of Practical Guide to 21 CFR Part 11.",
+    "description": "Structured user requirement examples mapped to current 21 CFR Part 11 references.",
     "humanPage": "/docs/computerised-systems/urs-requirements/21-cfr-part-11",
-    "source": {
-      "title": "Practical Guide to 21 CFR Part 11",
-      "section": "Section 7 - User Requirement Specifications",
-      "editionDate": "2026-05-21"
-    },
     "regulatorySource": {
       "title": "21 CFR Part 11 - Electronic Records; Electronic Signatures",
       "reviewedAt": "2026-07-10",
@@ -26,10 +21,6 @@
       "title": "Detect altered audit trail entries",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 1"],
-      "sourceRequirementNumber": 1,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (a)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(a)",
       "content": {
@@ -39,7 +30,10 @@
         "applicability": "Include only when the selected system can detect alteration of previously generated audit trail entries. If it cannot, assess alternative technical and procedural controls and document the resulting risk and supplier limitation.",
         "category": "audit-trail-integrity",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -48,10 +42,6 @@
       "title": "Restrict desktop administrative access",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 2"],
-      "sourceRequirementNumber": 2,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (a)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(a); related access controls in §§ 11.10(d) and 11.10(g)",
       "content": {
@@ -61,7 +51,10 @@
         "applicability": "Apply when the computerized system includes a user-accessible desktop or operating-system layer. Define emergency, service, vendor, and break-glass access separately; this is an implementation example rather than verbatim wording from § 11.10(a).",
         "category": "privileged-access-control",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -70,10 +63,6 @@
       "title": "Export batch records",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 3"],
-      "sourceRequirementNumber": 3,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (b)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(b)",
       "content": {
@@ -83,7 +72,10 @@
         "applicability": "Apply only when the system creates or maintains batch records. Confirm that the chosen human-readable and electronic export formats preserve the complete record, context, metadata, and relationships; PDF or CSV may not be sufficient for every record type.",
         "category": "record-export",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -92,10 +84,6 @@
       "title": "Export audit trails",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 4"],
-      "sourceRequirementNumber": 4,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (b)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§§ 11.10(b) and 11.10(e)",
       "content": {
@@ -105,7 +93,10 @@
         "applicability": "Apply where audit trails are required. Verify that exported data remain complete, readable, attributable, correctly ordered, and linked to the affected records; PDF or CSV may need supporting metadata or a native export.",
         "category": "audit-trail-export",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -114,10 +105,6 @@
       "title": "Perform periodic backups",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 5"],
-      "sourceRequirementNumber": 5,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (c)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(c)",
       "content": {
@@ -127,7 +114,10 @@
         "applicability": "Define backup scope, frequency, retention, security, monitoring, restoration testing, and recovery objectives from the intended use and risk assessment. A backup mechanism alone does not demonstrate recoverability.",
         "category": "backup-and-recovery",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -136,10 +126,6 @@
       "title": "Use mirrored storage",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 6"],
-      "sourceRequirementNumber": 6,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (c)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(c)",
       "content": {
@@ -149,7 +135,10 @@
         "applicability": "Use only when RAID 1 is justified for the deployed architecture. RAID is not a backup and may not apply to cloud, managed, virtualized, appliance, or supplier-hosted systems; define equivalent resilience and recovery controls instead.",
         "category": "infrastructure-resilience",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["inspection", "test"]
+        "verificationMethods": [
+          "inspection",
+          "test"
+        ]
       }
     },
     {
@@ -158,10 +147,6 @@
       "title": "Disable unused physical ports",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 7"],
-      "sourceRequirementNumber": 7,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (d)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(d)",
       "content": {
@@ -171,7 +156,10 @@
         "applicability": "Apply to physical interfaces within the organization's control after assessing maintenance, support, emergency recovery, and approved peripheral needs. Define compensating controls when a port cannot be disabled or blocked.",
         "category": "physical-and-port-security",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["inspection", "test"]
+        "verificationMethods": [
+          "inspection",
+          "test"
+        ]
       }
     },
     {
@@ -180,10 +168,6 @@
       "title": "Secure servers in lockable cabinets",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 8"],
-      "sourceRequirementNumber": 8,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (d)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(d)",
       "content": {
@@ -193,7 +177,9 @@
         "applicability": "Apply to on-premises servers when cabinet-level locking is part of the physical-security design. A controlled data room, managed data centre, cloud service, or sealed appliance may use different documented physical-access controls.",
         "category": "physical-security",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["inspection"]
+        "verificationMethods": [
+          "inspection"
+        ]
       }
     },
     {
@@ -202,10 +188,6 @@
       "title": "Record specified audit trail events",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 9"],
-      "sourceRequirementNumber": 9,
-      "sourcePage": 85,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -215,7 +197,10 @@
         "applicability": "Define the event inventory from intended use and record risk. Part 11 specifically addresses entries and actions that create, modify, or delete electronic records; login, logout, parameter, and alarm events should be included when relevant to security, record context, or regulated decisions.",
         "category": "audit-trail-capture",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -224,10 +209,6 @@
       "title": "Display minimum audit trail details",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 10"],
-      "sourceRequirementNumber": 10,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -237,7 +218,10 @@
         "applicability": "Apply to audit-trailed user actions and system events. Add old value, new value, reason for change, record identifier, electronic-signature meaning, or other context where the intended use and risk assessment require it.",
         "category": "audit-trail-content",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -246,10 +230,6 @@
       "title": "Prevent audit trail overwriting",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 11"],
-      "sourceRequirementNumber": 11,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -259,7 +239,10 @@
         "applicability": "Apply wherever audit trails are used. Include retention, archival, capacity, purge permissions, database administration, and supplier-support paths in the assessment rather than testing only normal user functions.",
         "category": "audit-trail-integrity",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -268,10 +251,6 @@
       "title": "Synchronize system time",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 12"],
-      "sourceRequirementNumber": 12,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -281,7 +260,10 @@
         "applicability": "Select the authoritative source and permitted tolerance for the deployed architecture. Define monitoring, failure indication, time-zone handling, access to time settings, and recovery after disconnection.",
         "category": "time-synchronization",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -290,10 +272,6 @@
       "title": "Display date and time format",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 13"],
-      "sourceRequirementNumber": 13,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -303,7 +281,10 @@
         "applicability": "Treat this format as the book's example, not a verbatim Part 11 mandate. Select an unambiguous organization-approved format, define 12-hour or 24-hour time, seconds where needed, time zone, and exported-record behavior.",
         "category": "time-display",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -312,10 +293,6 @@
       "title": "Adjust for daylight saving time",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 14"],
-      "sourceRequirementNumber": 14,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (e)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(e)",
       "content": {
@@ -325,7 +302,10 @@
         "applicability": "Apply only where local time and daylight-saving rules are used. Systems standardized on UTC or deployed in regions without daylight-saving changes need different requirements; verify duplicate or skipped local times and time-zone metadata.",
         "category": "time-handling",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -334,10 +314,6 @@
       "title": "Enforce unique usernames",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 15"],
-      "sourceRequirementNumber": 15,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§§ 11.10(d) and 11.10(g); see also § 11.300(a) for electronic signatures",
       "content": {
@@ -347,7 +323,10 @@
         "applicability": "Apply to human user accounts. Define treatment of renamed users, reused identifiers, service accounts, federated identity, deleted accounts, and cross-site directories so historical attribution remains unambiguous.",
         "category": "identity-management",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -356,10 +335,6 @@
       "title": "Authenticate with unique credentials",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 16"],
-      "sourceRequirementNumber": 16,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§§ 11.10(d) and 11.10(g)",
       "content": {
@@ -369,7 +344,9 @@
         "applicability": "Apply when username/password authentication is the approved mechanism. Federated identity, smart cards, passkeys, biometrics, or multifactor authentication require equivalent organization-approved requirements and must preserve individual attribution.",
         "category": "authentication",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test"]
+        "verificationMethods": [
+          "test"
+        ]
       }
     },
     {
@@ -378,10 +355,6 @@
       "title": "Obscure password entry",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 17"],
-      "sourceRequirementNumber": 17,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -391,7 +364,10 @@
         "applicability": "Apply to interfaces that accept passwords. If a temporary reveal control is provided, define its authorization, duration, logging, and shoulder-surfing risk; do not expose passwords in logs, exports, or error messages.",
         "category": "credential-protection",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -400,10 +376,6 @@
       "title": "Protect stored passwords",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 18"],
-      "sourceRequirementNumber": 18,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -413,7 +385,10 @@
         "applicability": "Apply where the system stores password verifiers. Confirm current approved hashing, salting, work factors, key or pepper protection, migration, backup exposure, and supplier controls; encryption alone is not necessarily an equivalent password-storage design.",
         "category": "credential-storage",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["inspection", "analysis"]
+        "verificationMethods": [
+          "inspection",
+          "analysis"
+        ]
       }
     },
     {
@@ -422,10 +397,6 @@
       "title": "Enforce password complexity",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 19"],
-      "sourceRequirementNumber": 19,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -435,7 +406,10 @@
         "applicability": "Treat the numeric and character-class rules as an example, not verbatim Part 11 text. Select current organization-approved authentication controls based on threat, system capability, identity-provider policy, password length, compromised-password screening, multifactor authentication, and user burden.",
         "category": "password-policy",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -444,10 +418,6 @@
       "title": "Allow password changes",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 20"],
-      "sourceRequirementNumber": 20,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -457,7 +427,9 @@
         "applicability": "Apply to locally managed passwords. Define current-password verification, identity-provider ownership, session handling, notification, audit logging, and recovery when the system uses centralized or federated authentication.",
         "category": "password-management",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test"]
+        "verificationMethods": [
+          "test"
+        ]
       }
     },
     {
@@ -466,10 +438,6 @@
       "title": "Prevent recent password reuse",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 21"],
-      "sourceRequirementNumber": 21,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -479,7 +447,9 @@
         "applicability": "Treat four-password history as an organization-specific example. Align history depth with the approved identity policy, password-aging approach, compromise response, system capability, and centralized identity provider.",
         "category": "password-policy",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test"]
+        "verificationMethods": [
+          "test"
+        ]
       }
     },
     {
@@ -488,10 +458,6 @@
       "title": "Lock accounts after failed logins",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 22"],
-      "sourceRequirementNumber": 22,
-      "sourcePage": 86,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g); see also § 11.300(d) for electronic-signature credential safeguards",
       "content": {
@@ -501,7 +467,10 @@
         "applicability": "Treat the attempt count and 30-minute period as organization-specific values. Assess denial-of-service risk, progressive delay, administrative unlock, alerting, reporting, shared infrastructure, emergency access, and identity-provider controls.",
         "category": "authentication-security",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -510,10 +479,6 @@
       "title": "Reauthenticate after inactivity",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 23"],
-      "sourceRequirementNumber": 23,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -523,7 +488,9 @@
         "applicability": "Define the inactivity period from use environment, process duration, safety, availability, shared-terminal risk, electronic-signature workflow, and identity-provider capability. Consider screen locking separately from application-session termination.",
         "category": "session-management",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test"]
+        "verificationMethods": [
+          "test"
+        ]
       }
     },
     {
@@ -532,10 +499,6 @@
       "title": "Provide secure password reset",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 24"],
-      "sourceRequirementNumber": 24,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -545,7 +508,10 @@
         "applicability": "Define identity proofing, reset authorization, token lifetime, single use, notification, audit logging, help-desk controls, temporary credentials, and federated identity ownership. Do not rely on knowledge available to unauthorized users.",
         "category": "account-recovery",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -554,10 +520,6 @@
       "title": "Reset initial password",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 25"],
-      "sourceRequirementNumber": 25,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -567,7 +529,9 @@
         "applicability": "Apply when temporary or initial passwords are issued. Federated identity, invitation links, passwordless onboarding, or user-created credentials require an equivalent mechanism that prevents shared or administrator-known secrets from remaining active.",
         "category": "password-management",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test"]
+        "verificationMethods": [
+          "test"
+        ]
       }
     },
     {
@@ -576,10 +540,6 @@
       "title": "Deactivate user access",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 26"],
-      "sourceRequirementNumber": 26,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§§ 11.10(d) and 11.10(g)",
       "content": {
@@ -589,7 +549,10 @@
         "applicability": "Apply to locally managed or federated accounts. Define authorization, timing, session revocation, interfaces, disabled-account retention, rehiring/reactivation, service accounts, and evidence that deactivation propagated to all relevant components.",
         "category": "access-revocation",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -598,10 +561,6 @@
       "title": "Configure role-based user groups",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 27"],
-      "sourceRequirementNumber": 27,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (g)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(g)",
       "content": {
@@ -611,7 +570,10 @@
         "applicability": "Treat the four role names as examples. Define roles from the actual process, segregation-of-duties needs, least privilege, supplier access, Quality oversight, emergency access, and approved access matrix; avoid broad default privileges.",
         "category": "authorization",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -620,10 +582,6 @@
       "title": "Enforce data-entry limits",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 28"],
-      "sourceRequirementNumber": 28,
-      "sourcePage": 87,
-      "bookReference": "11.10 Controls for closed systems (h)",
       "regulationKey": "11.10",
       "regulatoryLocator": "§ 11.10(h); related operational checks may also fall under § 11.10(f)",
       "content": {
@@ -633,7 +591,10 @@
         "applicability": "Apply only where justified limits exist. Define boundary behavior, units, precision, warning versus rejection, authorized overrides, reason capture, interface inputs, device checks, and change control for the limits.",
         "category": "input-control",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -642,10 +603,6 @@
       "title": "Display electronic signature manifestation",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 29"],
-      "sourceRequirementNumber": 29,
-      "sourcePage": 87,
-      "bookReference": "11.50 Signature Manifestations",
       "regulationKey": "11.50",
       "regulatoryLocator": "§ 11.50(a) and § 11.50(b)",
       "content": {
@@ -655,7 +612,10 @@
         "applicability": "Apply to every electronic record signed within Part 11 scope. Ensure the manifestation remains part of human-readable displays and copies, is linked to the signed record, and uses controlled signature meanings appropriate to the workflow.",
         "category": "electronic-signature-manifestation",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     },
     {
@@ -664,10 +624,6 @@
       "title": "Authenticate continuous-session signatures",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 30"],
-      "sourceRequirementNumber": 30,
-      "sourcePage": 87,
-      "bookReference": "11.200 Electronic signature components and controls (a)(1)(i)",
       "regulationKey": "11.200",
       "regulatoryLocator": "§ 11.200(a)(1)(i)",
       "content": {
@@ -677,7 +633,10 @@
         "applicability": "Apply to non-biometric electronic signatures during a single continuous controlled session. The normalized statement follows the current eCFR more closely than the book's password-only example; define how the system establishes and ends continuous controlled access.",
         "category": "electronic-signature-authentication",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -686,10 +645,6 @@
       "title": "Authenticate non-continuous-session signatures",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 31"],
-      "sourceRequirementNumber": 31,
-      "sourcePage": 87,
-      "bookReference": "11.200 Electronic signature components and controls (a)(1)(ii)",
       "regulationKey": "11.200",
       "regulatoryLocator": "§ 11.200(a)(1)(ii)",
       "content": {
@@ -699,7 +654,10 @@
         "applicability": "Apply to non-biometric electronic signatures not executed during one continuous controlled session. The normalized statement follows the current eCFR more closely than the book's login-plus-password example; verify all required signature components for each signing.",
         "category": "electronic-signature-authentication",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "analysis"]
+        "verificationMethods": [
+          "test",
+          "analysis"
+        ]
       }
     },
     {
@@ -708,10 +666,6 @@
       "title": "Enforce password aging",
       "version": "1.0",
       "status": "published",
-      "aliases": ["Section 7 requirement 32"],
-      "sourceRequirementNumber": 32,
-      "sourcePage": 87,
-      "bookReference": "11.300 Controls for identification codes/passwords (b)",
       "regulationKey": "11.300",
       "regulatoryLocator": "§ 11.300(b)",
       "content": {
@@ -721,7 +675,10 @@
         "applicability": "Define the aging period from the approved identity policy, current security guidance, compromise-detection capability, multifactor authentication, system constraints, and § 11.300(b). Treat forced periodic change as an example, not the only possible implementation of periodic credential review or revision.",
         "category": "password-policy",
         "gxpCriticality": "contextual",
-        "verificationMethods": ["test", "inspection"]
+        "verificationMethods": [
+          "test",
+          "inspection"
+        ]
       }
     }
   ]
