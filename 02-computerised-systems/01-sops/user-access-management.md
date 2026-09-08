@@ -34,6 +34,7 @@ Electronic-signature configuration and system validation remain under the CSV pr
 | --- | --- |
 | Process Owner | Confirm business need, training and incompatible duties. |
 | System Owner | Maintain the approved access matrix and account inventory; coordinate verification and reviews. |
+| Data Owner | Define retention and retrieval for access evidence supporting retained GMP records. |
 | IT administrator | Implement authorised requests, protect credentials and preserve account history. |
 | Quality | Approve GMP access-control exceptions and decide affected-record disposition. |
 | Manager or contractor sponsor | Notify role changes, termination and end dates before access is no longer needed. |
@@ -47,8 +48,8 @@ Assign a trained deputy for each approval and verification role. No person may a
 2. Define separate operating and administration permissions. Restrict GMP record changes and approvals to named authorised people.
 3. Record the owner, purpose and permitted interfaces of each non-person account. Prohibit interactive GMP work and electronic signatures through that account.
 4. Define identity verification, authentication, inactivity, lockout, credential recovery and review settings through the approved system specification.
-5. Identify Part 11 applicability through CSV. Before electronic-signature use, confirm identity verification, signature controls and applicable organisational certification to FDA.
-6. If technical limitations prevent the approved controls, open change control and a Quality exception assessment. Do not begin affected GMP use until Quality approves a demonstrably effective alternative or the limitation is corrected.
+5. Identify Part 11 applicability through CSV. Before electronic-signature use, confirm identity verification, signature controls and applicable organisational certification to FDA. Check the CSV specification against applicable sections 11.200 and 11.300 for signature components, signing sessions, ownership and credential controls.
+6. If technical limitations prevent the approved controls, open change control and a Quality exception assessment. Do not begin affected GMP use until Quality approves a demonstrably effective alternative or the limitation is corrected. An exception must not waive an applicable regulatory requirement.
 
 ## 5. Request and authorise access {#request-authorise}
 
