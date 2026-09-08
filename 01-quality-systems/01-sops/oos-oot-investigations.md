@@ -20,6 +20,8 @@ This is a reference draft, not an approved site procedure. Quality and the Proce
 
 ## 1. Purpose and scope {#scope}
 
+Out-of-specification (OOS) means a result outside the acceptance criteria established in an approved specification.
+
 Chemistry-based GMP laboratory results for human finished pharmaceuticals, associated materials, in-process tests and stability programmes. OOT means a result inconsistent with an approved trend rule; an atypical result warrants assessment even when no rule exists. Method-specific biological assays, sterility testing, environmental monitoring and real-time release need specialist procedures. This SOP does not replace them.
 
 The instructions below are proposed GxP Blueprint controls for adoption. Regulatory requirements apply only within their legal scope. Guidance informs the design; it does not make every implementation choice a legal obligation. Sources were checked on 8 September 2026. Veterinary, investigational and specialist product requirements need separate assessment.
@@ -55,7 +57,7 @@ Quality Unit means the adopting organisation's authorised quality function; US q
 
 ### 4.1. Define result rules before testing {#readiness}
 
-1. Laboratory Supervisor: approve the method, sampling plan, specification and reportable-result calculation before testing.
+1. Laboratory Supervisor: verify Quality Unit approval of the controlled method, sampling plan, specification and reportable-result calculation before testing. Retain the approved versions and approval identity. If approval is missing, stop testing and obtain Quality review. A supervisor acting as Quality approver must hold documented Quality Unit authority.
 2. Define authorised replicate calculations, variability limits and any staged compendial tests in the method.
 3. Establish product-specific OOT rules and alert ownership using process, method and stability knowledge.
 4. Define initial notification, investigation and escalation times according to patient, product and data risk.

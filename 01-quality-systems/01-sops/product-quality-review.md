@@ -65,7 +65,7 @@ Quality Unit means the adopting organisation's authorised quality function; US q
 
 A combined EU/US review may be used only when it preserves each applicable requirement. Management Review is not a substitute for the product-specific evaluation.
 
-### 4.2. Define scope and reconcile the batch population {#scope}
+### 4.2. Define scope and reconcile the batch population {#population}
 
 1. Review Coordinator: identify the product, strengths, presentations, markets, sites and review period.
 2. Explain any grouping scientifically and retain visibility of each product's distinct risks and results.
