@@ -43,12 +43,17 @@ Assign deputies and out-of-hours contacts before operation. IT declares technica
 ## 4. Establish and test the recovery plan {#recovery-plan}
 
 1. The System Owner must document system boundaries, dependent infrastructure, interfaces, supplier contacts and recovery sequence before GMP use.
-2. The Data Owner must inventory raw data, metadata, audit trails, configurations, signatures and required reader software. Include credentials or keys needed for recovery in controlled secure custody, separate from ordinary recovery records.
+2. The Data Owner must inventory raw data, metadata, audit trails, configurations, signatures and required reader software. Include retained archives where recovery affects their retrieval. Include credentials or keys needed for recovery in controlled secure custody, separate from ordinary recovery records.
 3. The Process Owner and Quality must approve RPO, RTO, maximum tolerable interruption and continuity limits using product, process and record risk.
 4. IT must define backup scope, frequency, retention, protected locations, access, separation from live-system failure and evidence of completion. Explain how the design meets the approved objectives.
 5. Specify monitoring frequency, alert thresholds, responders, acknowledgement limits and escalation before the next exposure can breach the RPO.
 6. Define restore-test frequency from change rate, criticality and previous failures. Test complete representative records, dependencies and recovery duration through CSV before use and at the approved interval.
-7. Challenge unavailable infrastructure, corrupted backups and unavailable supplier support. Record failed criteria and correct them before relying on the recovery arrangement.
+7. Challenge unavailable infrastructure, corrupted backups and unavailable supplier support. Record failed criteria and correct them before relying on the recovery arrangement. For changes affecting archive retrieval, test retained-record access through the data-integrity procedure.
+8. Before relying on continuity arrangements, the Process Owner must lead a representative test with operators, Quality and IT.
+9. Before testing, Quality and the Process Owner must approve activation-time, workload-capacity and maximum-duration acceptance criteria.
+10. Test outage recognition, contact escalation, alternative-workflow activation, controlled manual work and reconciliation back to the restored system. Include representative records and interfaces.
+11. Record actual activation time, sustainable workload, operating duration and reconciliation results against the approved criteria.
+12. If any criterion fails, prohibit reliance on the affected alternative. Correct the failure and repeat affected tests before approval.
 
 ## 5. Run backups and respond to failures {#backup-monitoring}
 
@@ -76,7 +81,7 @@ Assign deputies and out-of-hours contacts before operation. IT declares technica
 2. Obtain System Owner authorisation for technical recovery. Obtain Quality agreement to the verification and reconciliation plan before GMP use.
 3. Restore into an isolated environment where practical. Prevent interfaces, scheduled jobs or user sessions from creating unintended transactions during verification.
 4. Verify backup integrity and restore the required data and configuration together. Preserve originals and record every recovery attempt and failure.
-5. Check versions, security, time settings, audit trails, record readability, signatures and representative calculations against approved criteria.
+5. Check versions, security, time settings, audit trails, record readability, signatures and representative calculations against approved criteria. Confirm restored archives remain accessible with complete, accurate records.
 6. Confirm interfaces and critical workflows through CSV-defined verification. Record actual elapsed recovery time and the restored data point against the approved objectives.
 7. If verification fails, keep the service unavailable for GMP use. Investigate, select a justified alternative recovery approach and repeat affected checks under the recorded plan.
 
